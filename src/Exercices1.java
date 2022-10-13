@@ -19,7 +19,7 @@ public class Exercices1 {
         if(nombre < 0 && nombre%2==0) {
             System.out.println("Le nombre est négatif et pair");
         } else if (nombre < 0 && nombre%2==1) {
-            System.out.println("Le nombre est négatif et pair");
+            System.out.println("Le nombre est négatif et impair");
         } else if (nombre > 0 && nombre%2==0) {
             System.out.println("Le nombre est positif et pair");
         } else if (nombre > 0 && nombre%2==1){
@@ -29,3 +29,23 @@ public class Exercices1 {
         }
     }
 }
+
+    /*Autre façon
+    boolean estPair=nombre%2==0;
+    String parite=estPair?"pair":"impair";//opérateur ternaire
+
+        Sans opérateur ternaire
+       if(estPair){
+            parite="pair";
+        }else{
+            parite="impair";
+       }
+
+        if(nombre>0){
+                System.out.printf("%d est positif et %s",nombre,parite);
+                } else if (nombre<0) {
+        System.out.printf("%d est negatif et %s",nombre,parite);
+        }else{
+        System.out.println("0 et pair");
+        }
+     */
