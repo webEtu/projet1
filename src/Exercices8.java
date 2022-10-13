@@ -11,7 +11,7 @@ public class Exercices8 {
         Random random = new Random();
         int nA;
         nA = random.nextInt(101);
-        System.out.println(nA);
+        //System.out.println(nA);
 
         boolean correct = false;
 
